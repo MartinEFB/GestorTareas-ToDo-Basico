@@ -13,11 +13,8 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Tarea {
+public class Tarea extends Base{
 
-    @Id
-    @GeneratedValue
-    private int tareaId;
 
     private String tareaNombre;
     private String tareaDescripcion;

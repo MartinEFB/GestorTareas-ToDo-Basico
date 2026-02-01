@@ -13,11 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Usuario {
-
-    @Id
-    @GeneratedValue
-    private int usuarioId;
+public class Usuario extends Base{
 
     private String usuarioUserName;
     private String usuarioContrasenia;
